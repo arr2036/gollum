@@ -44,12 +44,10 @@ Gem::Specification.new do |s|
     LICENSE
     README.md
     Rakefile
-    bin/gollum
-    config.rb
+    bin/gollum   
     contrib/openrc/conf.d/gollum
     contrib/openrc/init.d/gollum
     contrib/systemd/gollum@.service
-    docs/sanitization.md
     gollum.gemspec
     lib/gollum.rb
     lib/gollum/app.rb
@@ -1059,6 +1057,7 @@ Gem::Specification.new do |s|
     lib/gollum/templates/pages.mustache
     lib/gollum/templates/search.mustache
     lib/gollum/templates/searchbar.mustache
+    lib/gollum/templates/user.mustache
     lib/gollum/uri_encode_component.rb
     lib/gollum/views/compare.rb
     lib/gollum/views/create.rb
